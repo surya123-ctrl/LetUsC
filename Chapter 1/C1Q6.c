@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 int main()
 {
     int length = 1189, breadth = 841, temp;
@@ -9,5 +10,7 @@ int main()
         length = breadth;
         breadth = temp / 2;
     }
+    float a = pow(3.2, 2);
+    printf("%f\n", a);
     return 0;
 }
